@@ -21,7 +21,7 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
-\topmargin = -60pt
+\topmargin = -45pt
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[finnish]{babel}
@@ -30,7 +30,7 @@
 \usepackage{helvet} % Default font is the helvetica postscript font
 %\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
 
-\setlength{\textwidth}{5.4in} % Text width of the document
+\setlength{\textwidth}{5.5in} % Text width of the document
 
 \begin{document}
 
@@ -40,17 +40,17 @@
 
 \moveleft.5\hoffset\centerline{\large\bf Pentti Sunila} % Your name at the top
  
-\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}%\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
 
 % address 
 % \moveleft.5\hoffset\centerline{7329 Marc Drive}
 % \moveleft.5\hoffset\centerline{Falls Church, VA 22042}
 
 
-\moveleft.5\hoffset\centerline{pentti.sunila@helsinki.fi}
-\moveleft.5\hoffset\centerline{\url{https://github.com/gingerdeer}}
-\moveleft.5\hoffset\centerline{\url{https://gingerdeer.github.io}}
-\moveleft.5\hoffset\centerline{+358 40 562 5105}
+%\moveleft.5\hoffset\centerline{pentti.sunila@helsinki.fi}
+%\moveleft.5\hoffset\centerline{\url{https://github.com/gingerdeer}}
+%\moveleft.5\hoffset\centerline{\url{https://gingerdeer.github.io}}
+%\moveleft.5\hoffset\centerline{+358 40 562 5105}
 %\moveleft.5\hoffset\centerline{github.com/supercowz}
 % \moveleft.5\hoffset\centerline{\hyperref[www.linkedin.com/in/pentti-sunila-a967a1123]{Linked in}}
 
@@ -69,15 +69,36 @@
  
 \section{EXPERIENCE}
   
-IBM Global Services\\
+ \textbf{Topcoder}\\
+ %{\sl Community Marketing \& Program Manager} \hfill 2021 - \\
+ {\sl Community Manager} \hfill 2021 - \\
+ \begin{itemize}
+ 	\item Competitive Programming; Algorithms, Data Science, Rapid Development
+ 	\item Europe region
+ 	\item Scheduling, approvals, comms
+ \end{itemize}
+ {\sl Developer Edgenet Evangelist} \hfill 2021 
+ \begin{itemize} \itemsep -2pt % Reduce space between items
+ 	\item Developer Advocacy for a client partnership, Competitive Programming \& \\ Development, Community Member
+ 	\item Community management, Communication \& representation, Technical development work, Guidance \& educational work, content, Client work
+ \end{itemize}
+
+\textbf{University of Helsinki}\\
+{\sl Course Instructor} \hfill 2021 \\
+\begin{itemize}
+	\item Introduction to Statistics and R Programming I
+	\item Introduction to Statistics and R Programming II
+\end{itemize}
+  
+\textbf{IBM Global Services}\\
 {\sl Trainee, Cloud App Migration Services} \hfill 2018 - 2020
 \begin{itemize} \itemsep -2pt % Reduce space between items
 \item Client work for a public sector client.
-\item Keywords: cloud transformation, automated testing, information security
+\item Keywords: cloud transformation, automated testing, information security, multi-vendor environment; Kubernetes, Openshift, Enterprise Java, Microservices, Robot framework, Watson technology
 \end{itemize}
 
 \addvspace{-7pt}
-TV Tools\\
+\textbf{TV Tools}\\
 {\sl Developer} \hfill 2018
 \begin{itemize} \itemsep -2pt % Reduce space between items
 \item Worked as a software developer on various front and back-end solutions related to media delivery, asset and log management, and monitoring.
@@ -85,7 +106,7 @@ TV Tools\\
 \end{itemize}
 
 \addvspace{-7pt}
-Nixu Corporation\\
+\textbf{Nixu Corporation}\\
 {\sl Summer Trainee, Situational Awareness} \hfill 2016
 \begin{itemize} \itemsep -2pt % Reduce space between items
 \item Evaluated various security software solutions.
@@ -94,36 +115,42 @@ Nixu Corporation\\
 \end{itemize}
 
 \addvspace{-7pt}
-Hyrylän yläaste\\
+\textbf{Hyrylän yläaste}\\
 {\sl Substitute teacher} \hfill 2015
 \begin{itemize} \itemsep -2pt % Reduce space between items
 \item Taught maths, chemistry, and programming to grades 7 - 9
 \end{itemize}
 \addvspace{-7pt}
-University of Helsinki\\
-{\sl Assistant} \hfill 2009
-\begin{itemize} \itemsep -2pt % Reduce space between items
-\item Performed two weeks' school related work practise (TET) at the Department of Finnish
-\end{itemize}
   
 %----------------------------------------------------------------------------------------
 %   EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
+\newpage
+
+\moveleft.5\hoffset\centerline{\large\bf Pentti Sunila} % Your name at the top
+
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}%\smallskip % Horizontal line after name; adjust line
+
+\addvspace{-7pt}
+
+
 \section{EDUCATION}
 
-{\sl University of Helsinki} \hfill 2013 - present\\
-I'm a mathematics major, my minor subjects are statistics and Hungarian.
+\textbf{University of Helsinki} \hfill 2013 - present\\
+Mathematics major, my minor subjects are statistics and Hungarian.
 \begin{itemize} \itemsep -2pt
-\item Completed credits: 300+, with aim to graduate 2020
-\item My bachelor's thesis was on the mathematical methods involved in X-Ray tomographic reconstruction
-\item Masters' thesis specialization on mathematical optimization
-\item Courses of note: Inverse Problems, Statistical Inference with R, Mathematics of infectious diseases
+\item Completed credits: 300+, graduating as M.Sc. in 2021. Plan to start PhD in 2021/2022
+\item My bachelor's thesis was on the mathematical methods involved in X-Ray tomographic reconstruction (Inverse Problems)
+\item Masters' thesis specialization on gradient methods in function spaces + applications (Optimization, Inverse Problems, Image \& Signal processing, PDE)
+\item Courses of note: Inverse Problems, Statistical Inference with R, Mathematics of infectious diseases, Intro. Wavelet Analysis
 \item Additional cultural \& linguistic studies, especially on finno-ugristics
+\item Course Instructor / Teaching Assistant for course "Introduction to Statistics \& R-Programming"
+\item Faculty council student representative (Faculty of Science)
 \end{itemize}
 
 \addvspace{-7pt}
-{\sl Tikkurilan lukio} \hfill 2010 - 2013\\
+\textbf{Tikkurilan lukio} \hfill 2010 - 2013\\
 Graduated in 2013 with a bilingual IB Diploma.
 \begin{itemize} \itemsep -2pt
 \item I performed volunteer service at Heureka Science Centre as part of the CAS (Creativity, Action, Service) program.
@@ -131,18 +158,25 @@ Graduated in 2013 with a bilingual IB Diploma.
 \item My Higher Level subjects were Finnish A, Mathematics, and Chemistry; Standard Level subjects were English A, Philosophy, and Physics. 
 \end{itemize}
 
+%\newpage
+
+
 \section{SKILLS \& INTERESTS}
 \begin{itemize} \itemsep -2pt
-\item Languages: Native Finnish, CEFR C2 English (fluent), B2 Hungarian and Swedish, A2 Mandarin Chinese. Various other language studies.
-\item Self study: for example, I have completed and audited several free courses on the Coursera online platform, including:
+\item Languages: Native Finnish, CEFR C2 English (fluent), B2 Hungarian and Swedish, A2 Mandarin Chinese (HSK 3-4). Various other language studies.
+\item Active self study: for example, I have completed and audited several free courses on the Coursera online platform, including:
   \begin{itemize} \itemsep -2pt
   \item Machine Learning
   \item Social Network Analysis
   \item Advanced Competitive Strategy
   \end{itemize}
-\item Arts \& culture interests
-\item Competitive programming \& CTF
+\item \href{https://www.youracclaim.com/users/pentti-sunila/badges}{Some issued verified badges}
+\item Arts \& culture interests, hobbies
+\item Competitive programming \& CTF participant
+\item Folk \& Electronic musician
+\item Member of the Finno-Ugrian Society of Finland
 \end{itemize}
+
 
 % ----------------------------------------------------------------------------------------
 
